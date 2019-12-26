@@ -3,19 +3,28 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
+    <br>
+    <br>
     <h1 id="title">VIDEOGAMES</h1>
     <p id="description">
       A video game is an electronic game that involves interaction with a user interface to generate visual feedback on a two- or three-dimensional video display device such as a touchscreen, virtual reality headset or monitor/TV set. Since the 1980s, video games have become an increasingly important part of the entertainment industry, and whether they are also a form of art is a matter of dispute.
     </p>
     <form action="" id="survey-form">
-      <input type="text" id="name">
+      <div class="col-md-12">
+        <label class="col-md-5">name: </label>
+        <input type="text" id="name" class="col-md-5" required>
+      </div>
+      <div class="col-md-12">
+        <label class="col-md-5">email: </label>
+        <input type="email" id="email" class="col-md-5" required>
+      </div>
     </form>
-    <br>
-    <br>
+   
     Hello World, we are software developers!.
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
