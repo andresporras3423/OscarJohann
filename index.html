@@ -17,15 +17,24 @@
     <form action="" id="survey-form">
       <div class="col-md-12">
         <label class="col-md-5" id="name-label">name: </label>
-        <input type="text" id="name" class="col-md-5" required>
+        <input type="text" placeholder="Name" id="name" class="col-md-5" required>
       </div>
       <div class="col-md-12">
         <label class="col-md-5" id="email-label">email: </label>
-        <input type="email" id="email" class="col-md-5" required>
+        <input type="email" placeholder="Email" id="email" class="col-md-5" required>
       </div>
       <div class="col-md-12">
         <label class="col-md-5" id="number-label">age: </label>
-        <input type="number" id="number" class="col-md-5" min="5" max="120" required>
+        <input type="number" placeholder="Age" id="number" class="col-md-5" min="5" max="120" required>
+      </div>
+      <div class="co-md-12">
+        <select name="dropdown" id="dropdown">
+          <option value="choose" id="console-preference">--Choose an option--</option>
+          <option value="xbox" id="console-preference">Xbox</option>
+          <option value="playstation" id="console-preference">Playstation</option>
+          <option value="wii" id="console-preference">Wii</option>
+          <option value="pc" id="console-preference">Pc</option>
+        </select>
       </div>
     </form>
    
