@@ -1,0 +1,25 @@
+.bodyStyle{
+    background-color:darkblue;
+    color:white;
+}
+
+.submitStyle{
+    margin:auto;
+}
+
+.titleStyle{
+    text-align: center;
+}
+
+.textStyle{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+   
+
+    textarea{
+        width: 500px; 
+        height: 150px;
+    }
+  }

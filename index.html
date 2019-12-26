@@ -2,16 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body class="bodyStyle">
     <br>
     <br>
-    <h1 id="title">VIDEOGAMES</h1>
-    <p id="description">
+    <h1 id="title" class="titleStyle">VIDEOGAMES</h1>
+    <p id="description"  class="textStyle">
       A video game is an electronic game that involves interaction with a user interface to generate visual feedback on a two- or three-dimensional video display device such as a touchscreen, virtual reality headset or monitor/TV set. Since the 1980s, video games have become an increasingly important part of the entertainment industry, and whether they are also a form of art is a matter of dispute.
     </p>
     <form action="" id="survey-form">
@@ -40,11 +41,11 @@
       <div class="col-md-12">
         <p class="col-md-5">which is your favorite game genre?</p>
         <div class="col-md-5">
-          <label><input name="genre-game" value="platforms" type="radio" class="input-radio" checked="">Platforms</label>
-<label><input name="genre-game" value="MOBA" type="radio" class="input-radio">MOBA</label>
-<label><input name="genre-game" value="shooters" type="radio" class="input-radio">Shooters</label>
-<label><input name="genre-game" value="strategy" type="radio" class="input-radio">Strategy</label>
-<label><input name="genre-game" value="fight" type="radio" class="input-radio">Fight</label>
+          <label><input name="genre-game" value="platforms" type="radio" class="input-radio" checked="">Platforms</label><br>
+<label><input name="genre-game" value="MOBA" type="radio" class="input-radio">MOBA</label><br>
+<label><input name="genre-game" value="shooters" type="radio" class="input-radio">Shooters</label><br>
+<label><input name="genre-game" value="strategy" type="radio" class="input-radio">Strategy</label><br>
+<label><input name="genre-game" value="fight" type="radio" class="input-radio">Fight</label><br>
         </div>
         
 </div>
@@ -52,19 +53,22 @@
 <div class="col-md-12">
   <p class="col-md-5">Do you like any of this games?:</p>
   <div class="col-md-5">
-    <label><input name="favorite-game" value="GTA" type="checkbox" class="input-checkbox">GTA</label>
-<label><input name="favorite-game" value="LOL" type="checkbox" class="input-checkbox">LOL</label>
-<label><input name="favorite-game" value="FIFA" type="checkbox" class="input-checkbox">FIFA</label>
-<label><input name="favorite-game" value="COD" type="checkbox" class="input-checkbox">Call of duty</label>
-<label><input name="favorite-game" value="MK" type="checkbox" class="input-checkbox">Mortal Kombat</label>
+    <label><input name="favorite-game" value="GTA" type="checkbox" class="input-checkbox">GTA</label><br>
+<label><input name="favorite-game" value="LOL" type="checkbox" class="input-checkbox">LOL</label><br>
+<label><input name="favorite-game" value="FIFA" type="checkbox" class="input-checkbox">FIFA</label><br>
+<label><input name="favorite-game" value="COD" type="checkbox" class="input-checkbox">Call of duty</label><br>
+<label><input name="favorite-game" value="MK" type="checkbox" class="input-checkbox">Mortal Kombat</label><br>
   </div>
 </div>
       </div>
       <div class="col-md-5">
         <label >Aditional comments:</label><br>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="" id="" cols="120" rows="5"></textarea>
       </div>
-      <button type="submit" id="submit">Submit</button>
+      <div  class="submitStyle col-md-12">
+        <button type="submit" id="submit" class="btn-primary">Submit</button>
+      </div>
+      
     </form>
    
     Hello World, we are software developers!.
