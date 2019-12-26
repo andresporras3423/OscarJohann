@@ -27,14 +27,37 @@
         <label class="col-md-5" id="number-label">age: </label>
         <input type="number" placeholder="Age" id="number" class="col-md-5" min="5" max="120" required>
       </div>
-      <div class="co-md-12">
-        <select name="dropdown" id="dropdown">
+      <div class="col-md-12">
+        <label class="col-md-5" id="dropdown-label">favorite console: </label>
+        <select class="col-md-5" name="dropdown" id="dropdown">
           <option value="choose" id="console-preference">--Choose an option--</option>
           <option value="xbox" id="console-preference">Xbox</option>
           <option value="playstation" id="console-preference">Playstation</option>
           <option value="wii" id="console-preference">Wii</option>
           <option value="pc" id="console-preference">Pc</option>
         </select>
+      </div>
+      <div class="col-md-12">
+        <p class="col-md-5">which is your favorite game genre?</p>
+        <div class="col-md-5">
+          <label><input name="genre-game" value="platforms" type="radio" class="input-radio" checked="">Platforms</label>
+<label><input name="genre-game" value="MOBA" type="radio" class="input-radio">MOBA</label>
+<label><input name="genre-game" value="shooters" type="radio" class="input-radio">Shooters</label>
+<label><input name="genre-game" value="strategy" type="radio" class="input-radio">Strategy</label>
+<label><input name="genre-game" value="fight" type="radio" class="input-radio">Fight</label>
+        </div>
+</div>
+
+<div class="col-md-12">
+  <p class="col-md-5">Do you like some of this games?:</p>
+  <div class="col-md-5">
+    <label><input name="favorite-game" value="GTA" type="checkbox" class="input-checkbox">GTA</label>
+<label><input name="favorite-game" value="LOL" type="checkbox" class="input-checkbox">LOL</label>
+<label><input name="favorite-game" value="FIFA" type="checkbox" class="input-checkbox">FIFA</label>
+<label><input name="favorite-game" value="COD" type="checkbox" class="input-checkbox">Call of duty</label>
+<label><input name="favorite-game" value="MK" type="checkbox" class="input-checkbox">Mortal Kombat</label>
+  </div>
+</div>
       </div>
     </form>
    
